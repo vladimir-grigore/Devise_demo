@@ -32,6 +32,7 @@ gem 'delayed_job_active_record'
 gem 'activeadmin', github: 'activeadmin'
 gem 'active_admin_importable'
 gem 'activeadmin-axlsx'
+gem 'activemerchant'
 
 # Simple form tutorial
 gem 'simple_form'
