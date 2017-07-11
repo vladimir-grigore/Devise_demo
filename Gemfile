@@ -30,6 +30,8 @@ gem 'jquery-turbolinks'
 gem 'devise_zxcvbn'
 gem 'delayed_job_active_record'
 gem 'activeadmin', github: 'activeadmin'
+gem 'active_admin_importable'
+gem 'activeadmin-axlsx'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

@@ -37,6 +37,10 @@ GEM
       erubis (~> 2.7.0)
       rails-dom-testing (~> 1.0, >= 1.0.5)
       rails-html-sanitizer (~> 1.0, >= 1.0.3)
+    active_admin_importable (1.1.2)
+    activeadmin-axlsx (2.0.1)
+      activeadmin (>= 0.5.0)
+      axlsx
     activejob (4.2.9)
       activesupport (= 4.2.9)
       globalid (>= 0.3.0)
@@ -57,6 +61,10 @@ GEM
     arel (6.0.4)
     autoprefixer-rails (7.1.2.1)
       execjs
+    axlsx (2.0.1)
+      htmlentities (~> 4.3.1)
+      nokogiri (>= 1.4.1)
+      rubyzip (~> 1.0.0)
     bcrypt (3.1.11)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
@@ -98,6 +106,7 @@ GEM
     has_scope (0.7.1)
       actionpack (>= 4.1, < 5.2)
       activesupport (>= 4.1, < 5.2)
+    htmlentities (4.3.4)
     i18n (0.8.6)
     inherited_resources (1.7.2)
       actionpack (>= 3.2, < 5.2.x)
@@ -181,6 +190,7 @@ GEM
     responders (2.4.0)
       actionpack (>= 4.2.0, < 5.3)
       railties (>= 4.2.0, < 5.3)
+    rubyzip (1.0.0)
     sass (3.4.25)
     sass-rails (5.0.6)
       railties (>= 4.0.0, < 6)
@@ -224,7 +234,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  active_admin_importable
   activeadmin!
+  activeadmin-axlsx
   bootstrap-sass
   byebug
   coffee-rails (~> 4.1.0)
