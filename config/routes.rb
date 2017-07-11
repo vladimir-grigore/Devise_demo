@@ -1,9 +1,16 @@
 Rails.application.routes.draw do
 
+  resources :payments, only: [:index, :new, :create]
+
+  get 'payments/index'
+  get 'payments/new'
+  get 'payments/create'
+
   devise_for :admin_users, ActiveAdmin::Devise.config
 
   ActiveAdmin.routes(self)
   devise_for :users
+
   root to: 'pages#index'
 
   get '/secret', to: 'pages#secret', as: :secret

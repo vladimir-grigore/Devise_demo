@@ -12,7 +12,6 @@ ActiveAdmin.register Author do
 #   permitted
 # end
 #
-  index download_links: [:csv, :xlsx]
 
   csv do
     column :first_name

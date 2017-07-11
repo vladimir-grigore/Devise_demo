@@ -30,8 +30,8 @@ gem 'jquery-turbolinks'
 gem 'devise_zxcvbn'
 gem 'delayed_job_active_record'
 gem 'activeadmin', github: 'activeadmin'
-gem 'active_admin_importable'
-gem 'activeadmin-axlsx'
+# gem 'active_admin_importable'
+# gem 'activeadmin-axlsx'
 gem 'activemerchant'
 
 # Simple form tutorial
