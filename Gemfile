@@ -29,6 +29,7 @@ gem 'thor', '0.19.1'
 gem 'jquery-turbolinks'
 gem 'devise_zxcvbn'
 gem 'delayed_job_active_record'
+gem 'activeadmin', github: 'activeadmin'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
