@@ -33,6 +33,7 @@ gem 'activeadmin', github: 'activeadmin'
 # gem 'active_admin_importable'
 # gem 'activeadmin-axlsx'
 gem 'activemerchant'
+gem 'haml'
 
 # Simple form tutorial
 gem 'simple_form'

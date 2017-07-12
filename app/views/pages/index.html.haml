@@ -1,0 +1,10 @@
+=content_for :top_content do
+  .jumbotron
+    .container
+      %h1 Welcome!
+      %p Register to get started.
+      %p
+        =link_to 'Register', new_user_registration_path, class: 'btn btn-primary btn-lg'
+        =link_to 'Admin', admin_root_path, class: 'btn btn-primary btn-lg'
+        =link_to 'Merchant', payments_path, class: 'btn btn-primary btn-lg'
+
